@@ -1,6 +1,6 @@
 FROM node:12.2-alpine
 
-RUN useradd -ms /bin/bash  searchservice 
+RUN ls
 
 
 EXPOSE 8080 9875 4010
